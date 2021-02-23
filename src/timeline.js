@@ -33,7 +33,7 @@ export default class Timeline extends React.Component {
           <Card style={{width: '35rem', backgroundColor:'#1E1E1E'}}>
           <CardContent>
             <Typography style={{color: '#F5F5F5', fontWeight: 'normal'}}>
-              {daily_content}
+              {daily_content.split('\n').map(str => <p>{str}</p>)}
             </Typography>
           </CardContent>
           </Card>

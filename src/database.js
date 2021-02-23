@@ -273,41 +273,83 @@ var news_article4 = {
         today.Thanks to their discovery, highly basic science that has laid the foundations for practical applications in`
      ],
      links: {
-        name: [''],
+        name: ['Buisness Today', 'BBC News', 'Republic World', 'Hindustan Times', 'Times of India',],
         url: [
-          ''
+          'https://www.businesstoday.in/current/economy-politics/new-version-of-astrazeneca-covid-19-vaccine-to-fight-south-african-variant-expected-in-autumn/story/430580.html',
+          'https://www.bbc.com/news/world-australia-55975542',
+          'https://www.republicworld.com/india-news/general-news/india-set-to-fulfil-worlds-70-percent-covid-19-vaccine-needs-amit-shah.html',
+          'https://www.hindustantimes.com/cities/mumbai-news/fungal-infection-on-rise-among-those-who-recovered-from-covid-19-docs-101612718809060.htm',
+          'https://timesofindia.indiatimes.com/world/uk/astrazeneca-covid-jab-less-effective-against-south-african-strain-study/articleshow/80735230.cms',
         ],
     },
     img:'/home/ankit/git/proto-react/src/assets/covid.jpeg',
     timeline: [
-        {
-          date: "2018-02-01",
-          content: "Thanks to their discovery, highly sensitive blood tests for the virus are now available and these have essentially eliminated post-transfusion hepatitis in many parts of the world, greatly improving global health, the committee said.Their discovery also allowed the rapid development of antiviral drugs directed at hepatitis C, it added. For the first time in history, the disease can now be cured, raising ",
-        },
-        {
-          date: "2018-02-02",
-          content: "",
-        },
-        {
-          date: "2018-02-03",
-          content: "Thanks to their discovery, highly sensitive blood tests for the virus are now available and these have essentially eliminated post-transfusion hepatitis in many parts of the world, greatly improving global health, the committee said.Their discovery also allowed the rapid development of antiviral drugs directed at hepatitis C, it added. For the first time in history, the disease can now be cured, raising ",
-        },
-        {
-          date: "2018-02-04",
-          content: "",
-        },
-        {
-          date: "2018-02-05",
-          content: "",
-        },
-        {
-          date: "2018-02-06",
-          content: "",
-        },
-        {
-          date: "2018-02-07",
-          content: "Thanks to their discovery, highly sensitive blood tests for the virus are now available and these have essentially eliminated post-transfusion hepatitis in many parts of the world, greatly improving global health, the committee said.Their discovery also allowed the rapid development of antiviral drugs directed at hepatitis C, it added. For the first time in history, the disease can now be cured, raising ",
-        },
+      {
+        date: "2020-08-21",
+        content: `India is witnessing a continuous rise in daily new infections but the centre of rising COVID cases in India has shifted from the metro cities to tier-2 and tier-3 cities. [24]`,
+      },
+      {
+        date: "2020-09-07",
+        content: `With 90,802 new cases in a day, India became the country with the second highest number of Coronavirus cases, surpassing Brazil. [23]`,
+      },
+      {
+        date: "2020-09-22",
+        content: `India has lowest case fatality ratio among the 20 worst affected nations, but there is skepticism regarding the depiction of data on several fronts [21] \n
+        The DNA of Indians is also being cited as a reason for the low case fatality ratio [22]`,
+      },
+      {
+        date: "2020-12-02",
+        content: `The UK government approved Pfizer/BioNtech’s COVID-19 vaccine for use making it the first authorised vaccine against COVID-19 [20]`,
+      },
+      {
+        date: "2021-01-03",
+        content: `India approves two vaccines; Covishield by Serum Institute and Covaxin by Bharat Biotech for emergency use [18] \n
+        Experts are raising concerns on the approval process and dearth of publicly available data on Covaxin [19] \n`,
+      },
+      {
+        date: "2021-01-16",
+        content: `PM Modi virtually launched India’s vaccination drive with thousands of frontline workers and doctors receiving the vaccine on Day 1 [12] \n
+        The rollout of the vaccination drive has caused apprehensions regarding the safety of Bharat Biotech’s Covaxin [13]`,
+      },   
+      {
+        date: "2021-01-19",
+        content: `India’s vaccination drive unable to fulfill daily targets due to vaccine hesitancy among healthcare workers [14] \n
+        India is supplying Covishield vaccine as grants to its neighbor including Bhutan, Maldives, Seychelles, Bangladesh, Nepal and Myanmar [15] \n
+        India’s gain from vaccine diplomacy shall be fleeting and domestic in nature. [16] \n
+        Vaccine diplomacy will help India gain international ground and counter China effectively with its ‘Neighbourhood first Policy’ [17] \n`,
+      },
+      {
+        date: "2021-01-29",
+        content: `A WHO team is visiting Wuhan district of China to trace the origin of the COVID-19 pandemic that spread across the world last year. [11]`,
+      },
+      {
+        date: "2021-01-31",
+        content: `Latest MHA guidelines suggest further opening of public spaces and services [10]`,
+      },
+      {
+        date: "2021-02-01",
+        content: `According to the data provided by Ministry of Health and Family Welfare (MoHFW), India is on the recovery path with the recovery rate touching 97 percent [9]`,
+      },
+      {
+        date: "2021-02-05",
+        content: `India is witnessing a decline in fresh infections and this week daily infections were lowest in thepast eight months. [7] \n
+        After the discovery of mutant coronavirus from the UK, vaccine developers including Astrazeneca, Pfizer, Moderna have claimed that their vaccines are effective against the N501Y mutant found in the UK. [8]`,
+      },
+      {
+        date: "2021-02-06",
+        content: `India has emerged as the fastest nation to vaccinate more than five million people in 21 days with the state of UP leading the inoculation drive [6]`,
+      },
+      {
+        date: "2021-02-07",
+        content: `Home Minister Amit Shah said India is exporting vaccine to 14 nations and has emerged as a global player in the fight against the virus [3] \n
+        Patients who have recovered from the COVID-19 infection are now witnessing a threat of deadly fungal infection that may cause blindness, organ dysfunction and even death [4] \n
+        South Africa has halted the use of Oxford/Astrazeneca vaccine as it was found less effective against South-African coronavirus strain [5]
+        `
+      },
+      {
+        date: "2021-02-08",
+        content: 'Oxford/Astrazeneca is working on improving the vaccine to make it effective towards South African mutant strains and claims that the improved vaccine will be available by autumn [1] \n Chinese origin Australian journalist Cheng Lei has been formally arrested after weeks of detention in China on charges of supplying national secrets overseas [2]',
+      },
       ],
     id: 12348,
 }
