@@ -40,31 +40,43 @@ var news_article1 = {
     timeline: [
         {
           date: "2020-09-14",
-          content: "",
-        },
-        {
-          date: "2020-09-20",
-          content: "",
+          content: `The victim, 19-year old Dalit woman went to a farm to collect cattle fodder and was allegedly raped by four men. She was admitted to the Jawaharlal Nehru Medical College and complaint lodged at the Chand Pa police station where the police rejected the family’s claims. ​[1]`,
         },
         {
           date: "2020-09-22",
-          content: "The police finally had registered a complaint on 20 Sep. Initially registered as assault and SC/ST Act case, gangrape was later added to the list of charges after the police were able to take an official statement from the victim. In her three recorded statements she mentioned that she was raped and strangulated when she tried to resist. She was later shifted to Safdarjung Hospital after her condition worsened.",
-        },
-        {
-          date: "2020-09-24",
-          content: "",
-        },
-        {
-          date: "2020-09-26",
-          content: "",
-        },
-        {
-          date: "2020-09-28",
-          content: "",
+          content: `The police finally had registered a complaint on 20 Sep. Initially registered as an assault and SC/ST Act case, gangrape was later added to the list of charges after the police were able to take an official statement from the victim. In her three recorded statements she mentioned that she was raped and strangled when she tried to resist. She was later shifted to Safdarjung Hospital after her condition worsened. ​ {2}`,
         },
         {
           date: "2020-09-29",
-          content: "The victim died succumbing to her injuries in Sajdarjung Hospital, New Delhi. The autopsy registered the cause of death as “injury to the cervical spine by blunt force trauma”. The victim was cremated at 2:30am by the UP Police. The Allahabad High Court took suo moto cognizance of the case asking the victim’s family, the DM and the SP to appear before it.",
+          content: `The victim died succumbing to her injuries in Safdarjung Hospital, New Delhi. The autopsy registered the cause of death as “injury to the cervical spine by blunt force trauma”. The victim was cremated at 2:30am by the UP Police. The Allahabad High Court took suo moto cognizance of the case asking the victim’s family, the DM and the SP to appear before it.`,
+        },
+        {
+          date: "2020-09-30",
+          content: `There are some news sources which reported that the victim was cremated in the middle of the night without the permission of the family and the authorities are misleading people saying the family had been present at the funeral. ​ {4} \n
+          There are some news sources which reported that the police had taken permissions from the family prior to cremation and the family was now lying. ​ {5} \n
+          A three member SIT team has been constituted by CM adityanath to investigate the case. The SIT has been instructed to submit its report in seven days ​ {6}`,
+        },
+        {
+          date: "2020-10-01",
+          content: `Hathras SP said that the Aligarh Hospital’s medical report of the victim did not confiirm rape and they’ll wait for the forensics report. ​ {7} \n
+          Some news sources reported that the UP administration and police have clearly established using forensic evidence that no rape occured. ​ {8} \n
+          Some news have reported that the administration is pushing false propoganda and questioned the analysis of “no rape” with the victims official statement mentioning rape.{9}`,
+        },
+        {
+          date: "2020-10-06",
+          content: `UP Police arrested 4 people including a Delhi based Malayali journalist who were on their way to Hathras. They were taken into custody near Mathura as they were on their way to Hathras from Delhi. ​ {10}`,
+        },
+        {
+          date: "2020-10-08",
+          content: `The main accused in the case wrote to UP Police claiming that they were being framed and that it was a case of honour killing. ​ {11}`,
+        },
+        {
+          date: "2020-10-10",
+          content: `The case has been handed over to CBI for fair investigation. The decision was taken after the UP CM Yogi Adityanath took cognizance of the matter. ​ {12}`,
+        },
+        {
+          date: "2020-12-18",
+          content: `The CBI filed the charges of gangrape and murder against the four accused in the Hathras ganrape case. ​ {13}`,
         },
       ],
     id: 12345,
