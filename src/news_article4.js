@@ -173,9 +173,9 @@ export default function ComplexGrid() {
        <Typography variant="caption">
            {article.date}
        </Typography>
+      <Typography variant="h6">Factual Discrepancies</Typography>
        </Paper>
           <Paper className={classes.paper}>
-          <Typography variant="h6">Factual Discrepancies</Typography>
        <Typography variant="body2" color="textSecondary">
          <ul>
           <li>{facts}</li>
