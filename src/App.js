@@ -1,10 +1,6 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
-import Grid from '@material-ui/core/Grid';
-import Paper from '@material-ui/core/Paper';
-import Typography from '@material-ui/core/Typography';
-import ButtonBase from '@material-ui/core/ButtonBase';
-import picLabel2 from './CAA.png';
+import { Helmet } from 'react-helmet'
 
 import {fade} from '@material-ui/core/styles';  
 
@@ -125,6 +121,9 @@ export default function ComplexGrid() {
 
   return (
     <div className={classes.root}>
+      <Helmet>
+          <title>{ 'VERITAS' }</title>
+        </Helmet>
       <Appbar/>
       <HomepageCard id={1}/>
       <HomepageCard id={2}/>
