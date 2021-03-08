@@ -19,7 +19,7 @@ import FormControl from '@material-ui/core/FormControl';
 import Select from '@material-ui/core/Select';
 import MenuItem from '@material-ui/core/MenuItem';
 import {Link } from "react-router-dom";
-
+import HomeIcon from '@material-ui/icons/Home';
 // import './style.css';
 
 
@@ -116,10 +116,11 @@ export default function Appbar() {
             >
               <MenuIcon />
             </IconButton> */}
+            <IconButton aria-label="Home" color="inherit" component={Link} to="./">
+              <HomeIcon/>
+            </IconButton>
             <Typography className={classes.title} variant="h6" noWrap>
-            <Link to="./" style={{textDecoration: 'inherit', color: 'black'}}>
                 {'VERITAS'}
-              </Link>
             </Typography>
             <div className={classes.search}>
               
