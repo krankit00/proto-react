@@ -17,6 +17,7 @@ reportWebVitals();
 // ReactDOM.render(<App />, document.querySelector('#root'));
 // ReactDOM.render(<App_2 />, document.querySelector('#root'));
 const rootElement = document.getElementById("root");
+
 ReactDOM.render(
     <BrowserRouter>
      <Switch>

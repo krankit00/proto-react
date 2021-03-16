@@ -112,7 +112,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-export default function ComplexGrid() {
+const App = (props) => {
   const classes = useStyles();
   const [lang, setLang] = React.useState('');
   const handleChange = (event) => {
@@ -132,4 +132,7 @@ export default function ComplexGrid() {
     </div>
   );
 }
+
+export default App;
+
 
