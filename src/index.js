@@ -1,14 +1,16 @@
 import './index.css';
-import App from './App';
-import news_article1 from './news_article1';
-import news_article2 from './news_article2';
-import news_article3 from './news_article3';
-import news_article4 from './news_article4';
 import reportWebVitals from './reportWebVitals';
+
+import App from './components/App';
+import Appbar from './components/content/appbar';
+import HomepageCard from './components/content/homepageCard';
+
+import news_article1 from './components/pages/news_article1';
+import news_article2 from './components/pages/news_article2';
+import news_article3 from './components/pages/news_article3';
+import news_article4 from './components/pages/news_article4';
 import ReactDOM from 'react-dom';
 import { BrowserRouter, Route, Switch } from "react-router-dom";
-import Appbar from './appbar';
-import HomepageCard from './homepageCard';
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
