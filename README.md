@@ -1,26 +1,45 @@
-## Available Scripts
+# movies-app
 
-In the project directory, you can run:
+# Introduction
 
-### `npm start`
+This repository is the result of the tutorial to develop your first MERN application and you can find it [here](https://medium.com/@samarony.barros/how-to-create-your-first-mern-mongodb-express-js-react-js-and-node-js-stack-7e8b20463e66)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## What you should install?
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+For this project, I decided to use the MERN (MongoDB, Express.js, React.js, and Node.js) technology.
+![mern](https://miro.medium.com/max/678/1*dqvlaszRLvoPmARpOlLN9A.png)
 
-### `npm test`
+Firstly, you should install
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+-   [Mongo](https://www.mongodb.com/) 4.0.4+
+-   [ExpressJS](https://expressjs.com/) 4.16.3+
+-   [ReactJS](https://reactjs.org/) 16.5.0+
+-   [Node](https://nodejs.org/en/) 11.4.0+ (It's recommended to use 10.15.1 LTS)
 
-### `npm run build`
+## Download
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+You can download the folder on my [GitHub](https://github.com/samaronybarros/) or you can do this directly on [this link](https://github.com/samaronybarros/movies-app).
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+If you have git installed on your PC, you just need do as follow:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```
+$ git clone https://github.com/samaronybarros/movies-app.git
+```
+
+## Configuring App
+
+If you have all the prerequisites installed you should verify if your MongoDB is up.
+
+```
+$ cd movies-app
+$ cd server
+$ yarn install
+$ nodemon index.js
+```
+
+```
+$ cd movies-app
+$ cd client
+$ yarn install
+$ yarn start
+```
